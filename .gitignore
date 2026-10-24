@@ -11,5 +11,5 @@
 *.swp
 *.log
 
-# Claude Code shaxsiy sozlamalari
-.claude/settings.local.json
+# Claude Code sozlamalari (saytga kerak emas)
+.claude/

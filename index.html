@@ -12,10 +12,23 @@
 <script src="theme.js"></script>
 </head>
 <body>
-<button class="theme-toggle" type="button" aria-label="Rejimni almashtirish">
-  <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
-  <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-</button>
+
+<!-- Menyu -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="#top">Rabbim Amonkulov</a>
+    <nav class="nav" aria-label="Asosiy menyu">
+      <a href="#xizmatlar">Xizmatlar</a>
+      <a href="#ishlarim">Ishlarim</a>
+      <a href="#savol-javob">Savol-javob</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Rejimni almashtirish">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</header>
+
 <main>
 
   <!-- Hero -->
@@ -70,11 +83,13 @@
     </div>
   </section>
 
-  <!-- Loyihalarim -->
-  <section class="section" id="loyihalar">
-    <h2>Loyihalarim</h2>
+  <!-- Ishlarim -->
+  <section class="section" id="ishlarim">
+    <h2>Ishlarim</h2>
     <div class="projects">
       <article class="project">
+        <!-- Rasm uchun: <img src="images/maskan.jpg" alt="Maskan"> -->
+        <div class="project-image"><span>M</span></div>
         <span class="tag">Qurilish loyihasi</span>
         <h3>Maskan</h3>
         <p>O'tgan oyda performance marketing orqali 1 100 ta lid jalb qilindi va 26 ta sotuv bo'ldi.</p>
@@ -85,6 +100,8 @@
         </div>
       </article>
       <article class="project">
+        <!-- Rasm uchun: <img src="images/arxan.jpg" alt="Arxan Residence"> -->
+        <div class="project-image"><span>AR</span></div>
         <span class="tag">Qurilish loyihasi</span>
         <h3>Arxan Residence</h3>
         <p>Performance marketing orqali 500 ta lid jalb qilindi va 10 ta sotuv bo'ldi.</p>
@@ -95,6 +112,8 @@
         </div>
       </article>
       <article class="project">
+        <!-- Rasm uchun: <img src="images/aveniu.jpg" alt="Aveniu"> -->
+        <div class="project-image"><span>A</span></div>
         <span class="tag">Qurilish loyihasi</span>
         <h3>Aveniu</h3>
         <p>Performance marketing orqali 5 000 ta lid jalb qilindi va 200 ta sotuv bo'ldi.</p>
@@ -104,6 +123,29 @@
           <div><strong>4%</strong><span>liddan sotuvga</span></div>
         </div>
       </article>
+    </div>
+  </section>
+
+  <!-- Savol-javob -->
+  <section class="section" id="savol-javob">
+    <h2>Savol-javob</h2>
+    <div class="faq">
+      <details class="faq-item">
+        <summary>Natija qachon ko'rinadi?</summary>
+        <p>Lidlar oqimini 3 kun ichida yo'lga qo'yamiz. Sezilarli natija 2 haftadan keyin ko'rina boshlaydi.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Qaysi reklama kanallari bilan ishlaysiz?</summary>
+        <p>Instagram va Facebook (Meta) reklamasi bilan ishlaymiz.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Ish qanday boshlanadi?</summary>
+        <p>Shartnoma tuzilgach, ish uchun nimalar kerakligini ro'yxat qilib yuboramiz. Ro'yxatdagilar tayyor bo'lgach, ish boshlanadi: 3 kun ichida reklama ishga tushadi va lidlar CRM'ga tusha boshlaydi.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Qaysi shaharlarda ishlaysiz?</summary>
+        <p>Hozir Samarqanddagi kompaniyalar bilan ishlaymiz. Yaqin orada boshqa viloyatlardan ham hamkorlar topishni rejalashtirganmiz.</p>
+      </details>
     </div>
   </section>
 
