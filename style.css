@@ -292,8 +292,9 @@ footer a:hover { color: var(--accent); }
   .nav {
     order: 3; width: 100%;
     margin-left: 0; gap: 24px;
-    padding: 10px 0 12px;
     overflow-x: auto; scrollbar-width: none;
   }
+  /* Barmoq bilan bosish uchun kattaroq joy */
+  .nav a { padding: 10px 0 12px; }
   .nav::-webkit-scrollbar { display: none; }
 }
